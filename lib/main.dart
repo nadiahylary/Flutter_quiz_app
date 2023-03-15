@@ -57,7 +57,7 @@ class _MyAppState extends State<MyApp>{
     });
     print(_questionIndex);
     if (_questionIndex < _questions.length){
-      print("We have more qs "+ _questionIndex.toString());
+      print("We have more qs $_questionIndex");
     }
     //print("Answer chosen!");
 
@@ -77,10 +77,11 @@ class _MyAppState extends State<MyApp>{
         ),
         body: _questionIndex < _questions.length
             ? Quiz(
+                questions:  _questions,
                 answerQuestion : _answerQuestion,
-                questionIndex : _questionIndex,
-                questions:  _questions)
-            : Result(),
+                questionIndex : _questionIndex
+                )
+            : Result(_totalScore),
       ),
     );
 
