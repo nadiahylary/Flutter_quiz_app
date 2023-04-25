@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import './question.dart';
-import './answer.dart';
+/*import './question.dart';
+import './answer.dart';*/
 import './quiz.dart';
 import './result.dart';
 /*void main(){
@@ -25,41 +25,41 @@ class _MyAppState extends State<MyApp>{
     {
       "question": "What's your favorite color?",
       "answers": [
-        {'text' :"Red", 'score': 10},
-        {'text' :"Black", 'score': 9},
-        {'text' :"Grey", 'score': 7},
-        {'text' :"Orange", 'score': 8},
-        {'text' :"White", 'score': 5},
-        {'text' :"Olive Green", 'score': 7}
+        {'text' :"Red", 'score': 5},
+        {'text' :"Black", 'score': 4},
+        {'text' :"Grey", 'score': 3},
+        {'text' :"Orange", 'score': 4},
+        {'text' :"White", 'score': 2},
+        {'text' :"Olive Green", 'score': 3}
       ]
     },
     {
       "question":"What's your favorite animal?",
       "answers": [
-        {'text' :"Dog", 'score': 9},
-        {'text' :"Cat", 'score': 5},
-        {'text' :"Jaguar", 'score': 7},
-        {'text' :"Wolf", 'score': 8}
+        {'text' :"Dog", 'score': 4},
+        {'text' :"Cat", 'score': 2},
+        {'text' :"Jaguar", 'score': 3},
+        {'text' :"Wolf", 'score': 4}
       ]
     },
     {
       "question":"Who's your favorite instructor?",
       "answers": [
-        {'text' :"God", 'score': 9},
-        {'text' :"Nadia Hylary", 'score': 8},
-        {'text' :"Maximillian Schwarz", 'score': 7},
-        {'text' :"Dr Angelou", 'score': 6}
+        {'text' :"God", 'score': 4},
+        {'text' :"Nadia Hylary", 'score': 4},
+        {'text' :"Maximillian Schwarz", 'score': 3},
+        {'text' :"Dr Angelou", 'score': 3}
       ]
     },
     {
       "question":"What's the favorite city you dream to visit?",
       "answers": [
-        {'text' :"New York", 'score': 9},
-        {"text": "Berlin", 'score': 5},
-        {'text': "Tokyo", 'score': 8},
-        {'text': "Budapest", 'score': 6},
-        {"text": "Hong Kong", "score":8},
-        {"text": "Atlanta", "score": 7}
+        {'text' :"New York", 'score': 4},
+        {"text": "Berlin", 'score': 2},
+        {'text': "Tokyo", 'score': 4},
+        {'text': "Budapest", 'score': 3},
+        {"text": "Hong Kong", "score":4},
+        {"text": "Atlanta", "score": 3}
       ],
     }
   ];

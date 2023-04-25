@@ -6,12 +6,12 @@ class Result extends StatelessWidget {
 
   String get resultPhrase{
     String result;
-    if (resultScore <= 15){
-      result = "You're pretty normal. :)";
-    }else if(resultScore >= 18 && resultScore <= 22){
-      result = "Great! You've got good taste";
+    if (resultScore <= 11){
+      result = "Score: $resultScore You're pretty normal. :)";
+    }else if(resultScore >= 13 && resultScore <= 18){
+      result = "Score: $resultScore Great! You've got good taste";
     }else{
-      result = "Awesome! You have an amazing personality!";
+      result = "Score: $resultScore Awesome! You have an amazing personality!";
     }
     return result;
   }
