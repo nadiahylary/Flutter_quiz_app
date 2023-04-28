@@ -10,7 +10,7 @@ class Result extends StatelessWidget {
     String result;
     if (resultScore <= 11) {
       result = "Score: $resultScore You're pretty normal. :)";
-    } else if (resultScore >= 13 && resultScore <= 18) {
+    } else if (resultScore >= 12 && resultScore <= 15) {
       result = "Score: $resultScore Great! You've got good taste";
     } else {
       result = "Score: $resultScore Awesome! You have an amazing personality!";
