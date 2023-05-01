@@ -88,6 +88,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     //print(questions[0]);
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
